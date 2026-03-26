@@ -1,0 +1,47 @@
+# Podcast Menager
+
+### Descricao
+Um app ao estilo netflix, aonde eu possa centralizar diferentes episodios podcasts separados por categoria.
+
+### Dominio
+Podcasts feitos em video
+
+### Features
+-Listar os podcasts em sessoes de categorias
+-[saude, fitness, mentalidade, humor]
+-filtrar episodios por nome de podcast
+
+## Como
+
+#### Feature:
+ Listar os episodios podcasts em sessoes de categorias
+
+ ### Como vou implementar:
+ 
+ GET
+ Vou retornar em uma api rest (json) para que consiga alimentar um frontend
+ o nome do podcast, nome do episodio, imagem da capa, link
+
+ ```js
+ [
+ {
+    podcastName: "flow",
+    episode: "PROFESSOR HOC - Flow #578",
+    videoId: "cGQV2KIzS6E",
+    cover: "https://i.ytimg.com/vi/cGQV2KIzS6E/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=cGQV2KIzS6E",
+    categories: ["saude", "fitness"]
+ 
+ },
+    podcastName: "flow",
+    episode: "DJ ARMIN VAN BUUREN - Flow #577",
+    videoId: "C4aE2_RcLCo",
+    cover: "https://i.ytimg.com/vi/C4aE2_RcLCo/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=C4aE2_RcLCo",
+    categories: [ "mentalidade", "humor"]
+
+ ]
+ ```
+
+
+ Get: retorna lista de episodeos baseado em um parametro enviado pelo cliente do nome do podcast

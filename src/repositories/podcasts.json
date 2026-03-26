@@ -1,0 +1,37 @@
+[
+    {
+        "podcastName": "flow",
+        "episode": "PROFESSOR HOC - Flow #578",
+        "videoId": "cGQV2KIzS6E",
+        "categories": [
+            "saude",
+            "fitness"
+        ]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "DJ ARMIN VAN BUUREN - Flow #577",
+        "videoId": "C4aE2_RcLCo",
+        "categories": [
+            "mentalidade",
+            "humor"
+        ]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "Aline - Flow #577",
+        "videoId": "000000",
+        "categories": [
+            "mentalidade",
+            "humor"
+        ]
+    },
+    {
+        "podcastName": "venus",
+        "episode": "Xuxa",
+        "videoId": "1111111",
+        "categories": [
+            "humor"
+        ]
+    }
+]
