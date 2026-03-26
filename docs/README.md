@@ -88,8 +88,14 @@ $ cd projeto-app-flow
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação
-$ npm start
+# Crie um arquivo .env na raiz do projeto com as suas variáveis de ambiente
+# (Você pode se basear no arquivo .env.example, se existir)
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start:dev
+
+# Ou execute em modo watch (o servidor reinicia automaticamente a cada alteração)
+$ npm run start:watch
 ```
 
 
